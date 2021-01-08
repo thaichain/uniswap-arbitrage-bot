@@ -1,0 +1,39 @@
+{
+  "name": "arbitrage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "set ETH_NETWORK=test && node index.js",
+    "start": "set ETH_NETWORK=main && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenWegert/arbitrage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BenWegert/arbitrage/issues"
+  },
+  "homepage": "https://github.com/BenWegert/arbitrage#readme",
+  "dependencies": {
+    "@ethersproject/solidity": "^5.0.5",
+    "@truffle/hdwallet-provider": "^1.2.0",
+    "@uniswap/sdk": "^3.0.3",
+    "@uniswap/v2-core": "^1.0.1",
+    "@uniswap/v2-periphery": "^1.1.0-beta.0",
+    "axios": "^0.21.0",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "dotenv": "^8.2.0",
+    "ethers": "^5.0.19",
+    "mongoose": "^5.10.13",
+    "node-binance-api": "^0.12.2",
+    "node-cache": "^5.1.2",
+    "web3": "^1.3.0"
+  }
+}
